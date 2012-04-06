@@ -1,40 +1,60 @@
 $main-color: #122321;
-$second-color: #f9d66b;
 $third-color: #0c1917;
 
-$main-font: 'Oleo Script', sans-serif;
-$sub-font: 'Oxygen', sans-serif;
+$text-color1: #f9d66b;
+$text-color2: #fff;
+
+$main-font: 'Lato', sans-serif;
 
 @import "_reset.scss";
 
 body {
+	font-family: $main-font;
 	font-size: 62.5%;
 	background-color: $main-color;
-	color: $second-color;
+	color: $text-color2;
 	text-align: center;
 }
 
 h1 {
-	font-family: $sub-font;
-	font-size: 1.4em;
-	color: #fff;
-	letter-spacing: 0.1em;
-	position: relative;
-	height: 1.8em;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 1.6em;
+	color: $text-color1;
+	span {
+		display: block;
+		color: $text-color2;
+		font-size: 2em;
+	}
 }
 
+h2 {
+	font-size: 2em;
+	font-style: italic;
+	font-weight: 700;
+	color: $text-color1;
+}
+
+p {
+	font-size: 1.5em;
+	padding-top: 10px;
+}
 header {
+	padding: 4%;
+}
+
+figure {
+	padding: 4%;
 	background-color: $third-color;
-	padding: 2em;
-	span {
-		font-family: $main-font;
-		color: $second-color;
-		display: block;
-		font-size: 3.6em;
-		letter-spacing: 0;
-		position: absolute;
-		left: 50%;
-		top: 1px;
-		margin-left: -86px;
-	}
+}
+
+figcaption {
+	font-size: 1.5em;
+	font-style: italic;
+	padding-top: 10px;
+}
+
+article {
+	padding: 30px;
+	border-bottom: dashed 2px #223c3a;
 }
