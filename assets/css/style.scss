@@ -1,0 +1,40 @@
+$main-color: #122321;
+$second-color: #f9d66b;
+$third-color: #0c1917;
+
+$main-font: 'Oleo Script', sans-serif;
+$sub-font: 'Oxygen', sans-serif;
+
+@import "_reset.scss";
+
+body {
+	font-size: 62.5%;
+	background-color: $main-color;
+	color: $second-color;
+	text-align: center;
+}
+
+h1 {
+	font-family: $sub-font;
+	font-size: 1.4em;
+	color: #fff;
+	letter-spacing: 0.1em;
+	position: relative;
+	height: 1.8em;
+}
+
+header {
+	background-color: $third-color;
+	padding: 2em;
+	span {
+		font-family: $main-font;
+		color: $second-color;
+		display: block;
+		font-size: 3.6em;
+		letter-spacing: 0;
+		position: absolute;
+		left: 50%;
+		top: 1px;
+		margin-left: -86px;
+	}
+}
