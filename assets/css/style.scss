@@ -1,5 +1,5 @@
 $main-color: #122321;
-$third-color: #0c1917;
+$second-color: #0c1917;
 
 $text-color1: #f9d66b;
 $text-color2: #fff;
@@ -13,7 +13,6 @@ body {
 	font-size: 62.5%;
 	background-color: $main-color;
 	color: $text-color2;
-	text-align: center;
 }
 
 h1 {
@@ -25,6 +24,7 @@ h1 {
 		display: block;
 		color: $text-color2;
 		font-size: 2em;
+		margin-top: 2px;
 	}
 }
 
@@ -40,12 +40,15 @@ p {
 	padding-top: 10px;
 }
 header {
-	padding: 4%;
+	padding: 4% 0 3.5% 0;
+	background-color: $second-color;
+	text-align: center;
+	margin-bottom: 10px;
 }
 
 figure {
 	padding: 4%;
-	background-color: $third-color;
+	background-color: $second-color;
 }
 
 figcaption {
@@ -56,5 +59,12 @@ figcaption {
 
 article {
 	padding: 30px;
+	background-color: $main-color;
 	border-bottom: dashed 2px #223c3a;
+   	transition: background-color .50s ease-in-out;
+   	-moz-transition: background-color .50s ease-in-out;
+   	-webkit-transition: background-color .50s ease-in-out;
+	&:hover {
+		background-color: $second-color;
+	}
 }
