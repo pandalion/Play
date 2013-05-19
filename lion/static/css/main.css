@@ -1,0 +1,558 @@
+/* line 17, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, ../sass/main.sass */
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* line 15, ../sass/main.sass */
+h1 {
+  color: #795d50;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* line 20, ../sass/main.sass */
+h2 {
+  color: #8aa920;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* line 25, ../sass/main.sass */
+a {
+  color: #36a4b5;
+}
+
+/* line 46, ../sass/_lion.sass */
+.lion {
+  width: 250px;
+  height: 300px;
+  position: relative;
+}
+/* line 50, ../sass/_lion.sass */
+.lion span {
+  position: absolute;
+}
+/* line 52, ../sass/_lion.sass */
+.lion .head {
+  width: 140px;
+  height: 105px;
+  top: 50px;
+  z-index: 2;
+  background-color: #f5cd88;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+/* line 60, ../sass/_lion.sass */
+.lion .eye {
+  width: 15px;
+  height: 22px;
+  top: 30px;
+  z-index: 2;
+  background-color: #604f31;
+  border: solid 10px #fbebcf;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-animation: blink 8s infinite;
+}
+/* line 69, ../sass/_lion.sass */
+.lion .eye.left {
+  left: 10px;
+}
+/* line 71, ../sass/_lion.sass */
+.lion .eye.right {
+  right: 10px;
+}
+/* line 74, ../sass/_lion.sass */
+.lion .nose {
+  width: 18px;
+  height: 12px;
+  top: 70px;
+  z-index: 2;
+  background-color: #604f31;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+/* line 82, ../sass/_lion.sass */
+.lion .mane {
+  width: 219px;
+  height: 180px;
+  top: 0;
+  z-index: 1;
+  background-color: #ed8641;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-animation: head-tilt 6s infinite;
+}
+/* line 92, ../sass/_lion.sass */
+.lion .mane:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -54px;
+  left: 60px;
+  color: #ed8641;
+  border: 50px solid transparent;
+  border-top: 100px solid #ed8641;
+  border-bottom: 0;
+  -webkit-transform: scaleX(1.9);
+  -moz-transform: scaleX(1.9);
+  -ms-transform: scaleX(1.9);
+  -o-transform: scaleX(1.9);
+  transform: scaleX(1.9);
+}
+/* line 108, ../sass/_lion.sass */
+.lion .mane:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 140px;
+  height: 105px;
+  bottom: 15px;
+  left: 40px;
+  background-color: #eb772a;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 118, ../sass/_lion.sass */
+.lion .ear {
+  width: 60px;
+  height: 60px;
+  top: 18px;
+  z-index: 2;
+  background-color: #f5cd88;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  border-radius: 60px;
+}
+/* line 128, ../sass/_lion.sass */
+.lion .ear.left {
+  left: -15px;
+}
+/* line 130, ../sass/_lion.sass */
+.lion .ear.left:before {
+  left: 60px;
+  -webkit-transform: scaleX(1.5) rotate(-20deg);
+  -moz-transform: scaleX(1.5) rotate(-20deg);
+  -ms-transform: scaleX(1.5) rotate(-20deg);
+  -o-transform: scaleX(1.5) rotate(-20deg);
+  transform: scaleX(1.5) rotate(-20deg);
+}
+/* line 133, ../sass/_lion.sass */
+.lion .ear.right {
+  right: -15px;
+}
+/* line 135, ../sass/_lion.sass */
+.lion .ear.right:before {
+  right: 120px;
+  top: -35px;
+  -webkit-transform: scaleX(1.5) rotate(20deg);
+  -moz-transform: scaleX(1.5) rotate(20deg);
+  -ms-transform: scaleX(1.5) rotate(20deg);
+  -o-transform: scaleX(1.5) rotate(20deg);
+  transform: scaleX(1.5) rotate(20deg);
+}
+/* line 139, ../sass/_lion.sass */
+.lion .ear .inner {
+  width: 39.6px;
+  height: 39.6px;
+  background-color: #fbebcf;
+  -webkit-border-radius: 39.6px;
+  -moz-border-radius: 39.6px;
+  -ms-border-radius: 39.6px;
+  -o-border-radius: 39.6px;
+  border-radius: 39.6px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+/* line 150, ../sass/_lion.sass */
+.lion .ear:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -30px;
+  color: #ed8641;
+  border: 15px solid transparent;
+  border-bottom: 30px solid #ed8641;
+  border-top: 0;
+  -webkit-transform: scaleX(1.5);
+  -moz-transform: scaleX(1.5);
+  -ms-transform: scaleX(1.5);
+  -o-transform: scaleX(1.5);
+  transform: scaleX(1.5);
+}
+/* line 161, ../sass/_lion.sass */
+.lion .body {
+  width: 120px;
+  height: 260px;
+  top: 30px;
+  background-color: #f5cd88;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+/* line 169, ../sass/_lion.sass */
+.lion .body:after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 200px;
+  left: 20px;
+  top: 40px;
+  background-color: #fbebcf;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+}
+/* line 178, ../sass/_lion.sass */
+.lion .tail {
+  font-size: 150px;
+  right: 0;
+  top: 160px;
+  color: #f5cd88;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+  -webkit-animation: sway 2s linear alternate infinite;
+  -webkit-transform-origin: 20px 80px;
+}
+/* line 186, ../sass/_lion.sass */
+.lion .tail:after {
+  content: "w";
+  position: absolute;
+  top: 49px;
+  left: 43px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ed8641;
+  -webkit-transform: rotate(110deg);
+  -moz-transform: rotate(110deg);
+  -ms-transform: rotate(110deg);
+  -o-transform: rotate(110deg);
+  transform: rotate(110deg);
+}
+/* line 196, ../sass/_lion.sass */
+.lion .leg {
+  width: 50px;
+  height: 100px;
+  bottom: -30px;
+  z-index: -1;
+  background-color: #f5cd88;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+/* line 203, ../sass/_lion.sass */
+.lion .leg.left {
+  left: 0;
+}
+/* line 205, ../sass/_lion.sass */
+.lion .leg.right {
+  right: 0;
+}
+/* line 207, ../sass/_lion.sass */
+.lion .leg:after {
+  content: "m";
+  display: block;
+  position: absolute;
+  font-size: 30px;
+  bottom: -3px;
+  color: #fbebcf;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+/* line 215, ../sass/_lion.sass */
+.lion .paw {
+  width: 60px;
+  height: 35px;
+  top: 133px;
+  background-color: #f5cd88;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+/* line 221, ../sass/_lion.sass */
+.lion .paw.left {
+  left: -35px;
+}
+/* line 223, ../sass/_lion.sass */
+.lion .paw.left:after {
+  left: 5px;
+}
+/* line 225, ../sass/_lion.sass */
+.lion .paw.right {
+  right: -35px;
+  -webkit-animation: wave 0.5s 5s linear 3;
+}
+/* line 227, ../sass/_lion.sass */
+.lion .paw.right:after {
+  right: 5px;
+}
+/* line 231, ../sass/_lion.sass */
+.lion .paw:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 7px;
+  width: 20px;
+  height: 20px;
+  background-color: #fbebcf;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+
+@-webkit-keyframes sway {
+  /* line 245, ../sass/_lion.sass */
+  from {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+
+  /* line 247, ../sass/_lion.sass */
+  to {
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    transform: rotate(40deg);
+  }
+}
+
+@-webkit-keyframes head-tilt {
+  /* line 251, ../sass/_lion.sass */
+  0% {
+    -webkit-transform: translateX(-50%) rotate(0deg);
+    -moz-transform: translateX(-50%) rotate(0deg);
+    -ms-transform: translateX(-50%) rotate(0deg);
+    -o-transform: translateX(-50%) rotate(0deg);
+    transform: translateX(-50%) rotate(0deg);
+  }
+
+  /* line 253, ../sass/_lion.sass */
+  50% {
+    -webkit-transform: translateX(-50%) rotate(-5deg);
+    -moz-transform: translateX(-50%) rotate(-5deg);
+    -ms-transform: translateX(-50%) rotate(-5deg);
+    -o-transform: translateX(-50%) rotate(-5deg);
+    transform: translateX(-50%) rotate(-5deg);
+  }
+
+  /* line 255, ../sass/_lion.sass */
+  0% {
+    -webkit-transform: translateX(-50%) rotate(0deg);
+    -moz-transform: translateX(-50%) rotate(0deg);
+    -ms-transform: translateX(-50%) rotate(0deg);
+    -o-transform: translateX(-50%) rotate(0deg);
+    transform: translateX(-50%) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes blink {
+  /* line 259, ../sass/_lion.sass */
+  0% {
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+
+  /* line 261, ../sass/_lion.sass */
+  50% {
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+
+  /* line 263, ../sass/_lion.sass */
+  51% {
+    -webkit-transform: scaleY(0.1);
+    -moz-transform: scaleY(0.1);
+    -ms-transform: scaleY(0.1);
+    -o-transform: scaleY(0.1);
+    transform: scaleY(0.1);
+  }
+
+  /* line 265, ../sass/_lion.sass */
+  52% {
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+
+  /* line 267, ../sass/_lion.sass */
+  100% {
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+
+@-webkit-keyframes wave {
+  /* line 271, ../sass/_lion.sass */
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 273, ../sass/_lion.sass */
+  50% {
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+  }
+
+  /* line 275, ../sass/_lion.sass */
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
